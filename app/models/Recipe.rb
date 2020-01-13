@@ -1,8 +1,8 @@
 class Recipe
 
     @@all = []
+    
     def initialize
-
         @@all << self
     end
 

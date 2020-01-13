@@ -34,7 +34,7 @@ class User
     end
 
     def most_recent_recipe
-        self.recipe.last
+        self.recipes.last
     end
 
     def safe_recipes
